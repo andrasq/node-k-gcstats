@@ -15,7 +15,7 @@
     "mocha": "2.0.1"
   },
   "scripts": {
-    "test": "mocha --version && mocha -b *.test.js || echo 'mocha not installed; try \"npm install -g mocha\"'",
+    "test": "mocha --version && mocha -b *.test.js",
     "coverage": "nyc --version && nyc --include kgcstats.js mocha *.test.js || echo 'nyc not installed; try \"npm install -g nyc\"'"
   }
 }
