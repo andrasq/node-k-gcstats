@@ -13,6 +13,8 @@
  * contents is a violation of applicable laws.
  */
 
+'use strict';
+
 var assert = require('assert');
 var kgc = require('./kgcstats');
 
