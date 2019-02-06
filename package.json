@@ -16,6 +16,7 @@
   },
   "scripts": {
     "test": "mocha --version && mocha -b *.test.js",
-    "coverage": "nyc --version && nyc --include kgcstats.js mocha *.test.js || echo 'nyc not installed; try \"npm install -g nyc\"'"
+    "coverage": "nyc --version && nyc -r text -r lcov --include kgcstats.js npm test || echo 'nyc not installed; try \"npm install -g nyc\"'",
+    "clean": "rm -rf .nyc_output/ coverage/ npm-debug.log"
   }
 }
