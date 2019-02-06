@@ -7,7 +7,7 @@
     "node": ">= 4"
   },
   "license": "Kinvey",
-  "repository": "git+ssh://github.com/andrasq/node-k-http",
+  "repository": "git+ssh://github.com/andrasq/node-k-gcstats",
   "dependencies": {
     "gc-stats": "1.2.0"
   },
